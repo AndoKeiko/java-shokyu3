@@ -13,7 +13,7 @@ public class Main {
         PhoneNumberValidator phoneNumberValidator = new PhoneNumberValidator(phoneNumber);
         phoneNumberValidator.phoneNumbervalidate(phoneNumber);
       } catch (Exception e) {
-        throw new RuntimeException(e);
+        scanner.nextLine();
       }
     }
 
